@@ -18,7 +18,7 @@ public class DisplayMessage extends Activity {
         TextView textView = new TextView(this);
         textView.setTextSize(40);
         textView.setText(message);
-        textView.setBackground(Color.BLACK);
+        textView.setBackgroundResource(R.color.black);
         textView.setTextColor(Color.WHITE);
         
         setContentView(textView);
